@@ -10,6 +10,7 @@ RUN pip3 install gmpy2
 
 RUN pip install pystrich
 
+EXPOSE 5035
 
 
 CMD [ "python", "./pidigit.py" ]
